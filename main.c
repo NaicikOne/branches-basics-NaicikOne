@@ -6,6 +6,8 @@ int main() {
   int a = 2, b = 2;
   a = a + b;
   printf("summ = %d \n", a);
+  a = a * b;
+  printf("(a + b) * b = %d\n", a);
   system("pause");
   return 0;
 }
